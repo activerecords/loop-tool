@@ -1,0 +1,15 @@
+//  ***** gm - Trumpet *****
+//  Soundfont converted using sfZed
+//  SoundFont version 2.1
+//  E-mu 10K1
+//  Using Virtual Sampler
+
+
+<group>
+ampeg_release=0.500
+
+<region>
+sample=Miss.wav
+lokey=48
+hikey=90
+pitch_keycenter=60

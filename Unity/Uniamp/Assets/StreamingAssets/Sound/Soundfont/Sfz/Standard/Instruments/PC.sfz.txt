@@ -1,0 +1,55 @@
+//  ***** gm - Piano 1 *****
+//  Soundfont converted using sfZed
+//  SoundFont version 2.1
+//  E-mu 10K1
+//  Using Virtual Sampler
+
+
+<group>
+ampeg_release=0.500
+
+<region>
+sample=PC_Hai_Cn3_bip.wav
+hikey=60
+pitch_keycenter=60
+
+<region>
+sample=PC_Hai_Cn3_bip.wav
+hikey=72
+pitch_keycenter=60
+
+<region>
+sample=PC_Hai2_Dn2_bip.wav
+hikey=61
+pitch_keycenter=61
+
+<region>
+sample=PC_Paku_Cn4_bip.wav
+hikey=73
+pitch_keycenter=73
+
+<region>
+sample=PC_Tsubusu1_Cn5_bip.wav
+hikey=84
+pitch_keycenter=84
+
+<region>
+sample=PC_Hey2_Bn5_bip.wav
+hikey=95
+pitch_keycenter=95
+
+<region>
+sample=PC_Hey_Cn6_bip.wav
+hikey=96
+pitch_keycenter=96
+
+<region>
+sample=PC_You_Cs6_bip.wav
+hikey=97
+pitch_keycenter=97
+
+<region>
+sample=PC_Muscle_Dn6_bip.wav
+hikey=98
+hikey=110
+pitch_keycenter=98

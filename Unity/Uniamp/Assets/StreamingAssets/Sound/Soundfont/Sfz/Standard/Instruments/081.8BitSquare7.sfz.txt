@@ -1,0 +1,25 @@
+//  ***** gm - Square Wave *****
+//  Soundfont converted using sfZed
+//  SoundFont version 2.1
+//  E-mu 10K1
+//  Using Virtual Sampler
+
+
+<group>
+loop_mode=loop_continuous
+ampeg_delay=0.0
+ampeg_start=0.0
+ampeg_attack=0.250
+ampeg_hold=0.250
+ampeg_decay=0.250
+ampeg_sustain=50.0
+ampeg_release=0.250
+
+<region>
+sample=8BitSquare7_22050.wav
+lokey=0
+hikey=127
+loop_start=0
+loop_end=1799
+pitch_keycenter=7
+volume=-12.0

@@ -1,0 +1,15 @@
+.DS_Store
+
+**/Assets/StreamingAssets/Config/*
+**/Assets/StreamingAssets/Sound/Music/BgmInput/*
+**/Assets/StreamingAssets/Sound/Music/BgmOutput/*
+**/Build/*
+**/Library/
+**/Temp/
+*.csproj
+*.sln
+*.userprefs
+*.unityproj
+
+**/Uniamp/Assets/StreamingAssets/Config/*
+**/Uniamp/Assets/StreamingAssets/Sound/Music/*

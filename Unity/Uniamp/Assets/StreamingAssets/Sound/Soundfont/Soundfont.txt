@@ -1,0 +1,23 @@
+// 使用するサウンドフォントを指定する
+// 先頭が「//」で始まる行はコメント扱い
+//
+// 対応しているサウンドフォントは以下3種類
+// ・Sfz（拡張子：blst）
+// ・Sf2（拡張子：sf2）（動作未確認）
+// ・DLS（拡張子：dls）（動作未確認）
+//
+// サウンドフォントファイルは絶対パスまたは相対パスでの指定が可能
+// ・絶対パス：先頭が「/」（ルートディレクトリ）で始まる
+//   例）/Users/ユーザ名/Google ドライブ/Soundline/Sfz/Standard.blst
+// ・相対パス：先頭が「/」（ルートディレクトリ）で始まらない
+//   例）Sfz/Standard.blst
+//      ↑Soundfont.txt（このファイル）が
+//      /Users/ユーザ名/Projects/Unity/Gui/Uniamp/Assets/StreamingAssets/Sound/Soundfont
+//      に配置されている場合、
+//      /Users/ユーザ名/Projects/Unity/Gui/Uniamp/Assets/StreamingAssets/Sound/Soundfont/Sfz/Standard.blst
+//      が読み込まれる
+
+//gm.dls
+//msgs.sf2
+//Sfz/Standard.blst
+/Users/nagi/Google ドライブ/Soundline/Sfz/Ninja.blst
