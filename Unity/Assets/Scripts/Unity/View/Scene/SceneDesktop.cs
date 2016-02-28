@@ -31,7 +31,7 @@ namespace Unity.View.Scene
 
 		void Awake()
 		{
-			Unity.Function.Graphic.Gui.camera = camera;
+			Unity.Function.Graphic.Gui.camera = GetComponent<Camera>();
 			GameObject obj = GameObject.Find( "GuiStyleSet" );
 			//GameObject obj = ( GameObject )Resources.Load( "Prefab/GuiStyleSet.prefab", typeof( GameObject ) );
 			GuiStyleSet.Reset( obj );
@@ -104,8 +104,8 @@ namespace Unity.View.Scene
 			}
 			
 			AudioClip myClip = AudioClip.Create( "MySinoid", 8820, 2, 44100, false, true, OnAudioRead, OnAudioSetPosition );
-			audio.clip = myClip;
-			audio.Play();
+			GetComponent<AudioSource>().clip = myClip;
+			GetComponent<AudioSource>().Play();
 		}
 		
 		void OnAudioRead( float[] data )

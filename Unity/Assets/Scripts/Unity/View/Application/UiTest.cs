@@ -36,7 +36,7 @@ namespace Unity.View
 			
 			if( gameObject != null )
 			{
-				camera = gameObject.camera;
+				camera = gameObject.GetComponent<Camera>();
 			}
 		}
 

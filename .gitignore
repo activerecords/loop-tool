@@ -3,6 +3,7 @@
 **/Assets/StreamingAssets/Config/*
 **/Assets/StreamingAssets/Sound/Music/BgmInput/*
 **/Assets/StreamingAssets/Sound/Music/BgmOutput/*
+**/ProjectSettings/*
 **/Build/*
 **/Library/
 **/Temp/
